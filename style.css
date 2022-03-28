@@ -1,5 +1,5 @@
 body {
-    background-image: url(1561323.jpg);
+    background-image: url(photo-1582489853490-cd3a53eb4530.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -28,6 +28,9 @@ body {
     height: 36px;
     
   }
+  #search-button{
+    background-color: #a8cee9;
+  }
   
   #search-input {
     border: none;
@@ -44,7 +47,7 @@ body {
   }
   /* CSS */
   .contact-us {
-    background-color: #0095ff;
+    background-color: #a8cee952;
     border: 1px solid transparent;
     border-radius: 3px;
     box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
@@ -72,7 +75,7 @@ body {
   
   .contact-us:hover,
   .contact-us:focus {
-    background-color: #07c;
+    background-color: rgb(112, 166, 204);
   }
   
   .contact-us:focus {
@@ -80,7 +83,7 @@ body {
   }
   
   .contact-us:active {
-    background-color: #0064bd;
+    background-color: #7fafda;
     box-shadow: none;
   }
   
@@ -99,4 +102,25 @@ body {
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
   }
+  
+  .media-icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+  }
+  .media-icons a {
+    margin-top: 23px;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    opacity: 0.7;
+    color: #000000;
+    transition: all 0.3s ease;
+  }
+  .media-icons a:hover {
+    opacity: 1;
+  }
+
   
